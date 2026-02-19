@@ -1,0 +1,29 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background: #f1f5f9;
+}
+
+.good {
+  color: green;
+  font-weight: 600;
+}
+
+.warning {
+  color: orange;
+}
+
+.critical {
+  color: red;
+  font-weight: 600;
+}
